@@ -3,7 +3,9 @@ require.config({
   paths: {
     'domReady' : 'vendor/requirejs-domready/domReady',
     'angular'  : 'vendor/angular/angular',
-    'router'   : 'vendor/angular-ui-router/release/angular-ui-router'
+    'router'   : 'vendor/angular-ui-router/release/angular-ui-router',
+    'lazy'     : 'lib/lazy',
+    'active'   : 'lib/active'
   },
   shim: {
     'angular': {

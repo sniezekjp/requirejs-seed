@@ -33,11 +33,5 @@ define(['angular', 'router'], function(angular) {
         });
 
       $urlRouterProvider.otherwise('/');
-    })
-    .run(function($rootScope) {
-      $rootScope.$on('$stateChangeStart', function(args, args1) {
-        console.log(args);
-        console.log(args1);
-      })
-    })
+    });
 });
