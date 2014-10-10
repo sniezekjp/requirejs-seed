@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+	<ul>
+		<li><a ui-sref="home">Home</a></li>
+		<li><a ui-sref="lazy">Lazy</a></li>
+		<li><a ui-sref="active">Active</a></li>
+	</ul>
+
+	<ui-view></ui-view>
+	<div ng-controller="MainCtrl">
+		{{name}}
+		<a href="" ng-click="lazyLoad()">require lazy</a>
+		<a href="" ng-click="getLazy()">injector lazy</a>
+	</div>
+  	<script data-main="js/main" src="vendor/requirejs/require.js"></script>
+</body>
+</html>
