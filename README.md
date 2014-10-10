@@ -1,5 +1,5 @@
 seed-app
 ========
 
-npm install -d
+npm install -d  
 bower install
