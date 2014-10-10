@@ -1,1 +1,1 @@
-define(['./lazyController', './lazyDirective', './lazyFactory']);
+define(['./activeCtrl', './activeDir', './activeFactory']);

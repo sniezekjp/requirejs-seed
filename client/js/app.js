@@ -4,7 +4,9 @@ define(['angular', 'router'], function(angular) {
       
       $stateProvider
         .state('home', {
-          url: '/'
+          url: '/',
+          controller: 'MainCtrl',
+          template: 'MainCtrl'
         })
         .state('lazy', {
           url: '/lazy',

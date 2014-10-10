@@ -1,4 +1,4 @@
-seed-app
+requirejs-app
 ========
 
 npm install -d  
